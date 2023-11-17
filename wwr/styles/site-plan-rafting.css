@@ -1,19 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Secular+One&display=swap');
 :root {
-    --rich-black: #000814ff;
-    --oxford-blue: #001d3dff;
-    --yale-blue: #003566ff;
-    --mikado-yellow: #ffc300ff;
-    --gold: #ffd60aff;
+    --font-color: white;
+    --rich-black: #052626;
+    --oxford-blue: #023373;
+    --yale-blue: #F2C12E;
+    --mikado-yellow: #A67924;
+    --gold: #A64941;
     /*from https://coolors.co/palette/000814-001d3d-003566-ffc300-ffd60a*/
 
     --heading-font: "Inter",serif,bold;
     --paragraph-font: "Inter",serif;
 
-  --primary-color: var(--rich-black);
-  --secondary-color: var(--oxford-blue);
+  --primary-color: var(--font-color);
+  --secondary-color: var(--font-color);
   --accent1-color: var(--yale-blue);
   --accent2-color: var(--mikado-yellow);
+  --body-background: var(--rich-black);
   
   --nav-background-color: var(--rich-black);
   --nav-link-color: var(--gold);
@@ -26,6 +28,7 @@
 /*Tag Selectors*/
 body{
     font-family: var(--paragraph-font);
+    background-color: var(--body-background);
 }
 h1,h2,h3,h4,h5,h6{
     font-family: var(--heading-font);
