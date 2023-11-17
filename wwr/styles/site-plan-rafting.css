@@ -7,7 +7,7 @@
     --gold: #ffd60aff;
     /*from https://coolors.co/palette/000814-001d3d-003566-ffc300-ffd60a*/
 
-    --heading-font: "Inter",serif;
+    --heading-font: "Inter",serif,bold;
     --paragraph-font: "Inter",serif;
 
   --primary-color: var(--rich-black);
@@ -25,7 +25,7 @@
 
 /*Tag Selectors*/
 body{
-    font-family: var(--paragraph-font)
+    font-family: var(--paragraph-font);
 }
 h1,h2,h3,h4,h5,h6{
     font-family: var(--heading-font);
