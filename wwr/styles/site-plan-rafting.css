@@ -20,3 +20,12 @@
   --nav-hover-link-color: var(--yale-blue);
   --nav-hover-background-color: var(--oxford-blue);
 }
+/*Class Selectors*/
+
+
+/*Tag Selectors*/
+body{
+    font-family: "Inter",serif;
+}
+
+/*ID Selectors*/
