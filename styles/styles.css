@@ -31,6 +31,8 @@ main img{
     width: 150px;
     height: auto;
     float: right;
+    position: relative;
+    top: -20px;
 }
 aside{
     width: 20rem;
