@@ -42,9 +42,7 @@ aside{
     text-align: center;
 }
 aside h2{
-    position: absolute;
-    top: 47px;
-    left: 150px;
+    position: relative;
 }
 aside img{
     width: 200px;
