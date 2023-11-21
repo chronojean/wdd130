@@ -8,9 +8,6 @@ header {
 	grid-template-columns: 1fr 2fr 1fr;
 	align-items: center;
 }
-nav {
-	text-align: right;
-}
 
 .navigation {
 	display: flex;
