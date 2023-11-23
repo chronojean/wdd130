@@ -27,6 +27,10 @@
 
 
 /*Tag Selectors*/
+*{
+	margin: 0px;
+	padding: 0px;
+}
 body{
     font-family: var(--paragraph-font);
     background-color: var(--body-background);
