@@ -23,9 +23,14 @@ section,footer{
 /***************************************General Rules****************************************/
 /***************************************Tag Selectors****************************************/
 footer{
-	display: grid;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
 	text-align: center;
 	background-color: var(--nav-background-color);
+	gap: 0;
+	margin: 0;
+	padding: 0;
 }
 /***************************************Tag Selectors****************************************/
 /**************************************Class Selectors***************************************/
