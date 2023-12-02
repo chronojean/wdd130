@@ -22,6 +22,9 @@ form input,textarea,select{
     border-style: ridge;
     border-radius: 10px;
 }
+form input:hover,textarea:hover,select:hover{
+    border: 1px solid green;
+}
 form strong{
     color: darkkhaki;
     font-size: large;
