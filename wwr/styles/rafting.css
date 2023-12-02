@@ -95,8 +95,7 @@ footer{
 .gallery figcaption {
 	background-color: var(--color3);
 	color: var(--primary-color);
-	font: italic small sans-serif;
-	text-align: center;
+	font: italic sans-serif;
 	border-radius: 0px 0px 20px 20px;
   }
 /**************************************Class Selectors***************************************/
