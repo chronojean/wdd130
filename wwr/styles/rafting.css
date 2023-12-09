@@ -236,6 +236,6 @@ select {
     outline-offset: 0;
   }
 }
-form button {
+.formulario button {
   display: none;
 }
