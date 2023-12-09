@@ -23,34 +23,60 @@
         </nav>
     </header>
     <main class="contact-main">
-        <section class="company-info">
-            <h2>Company Information</h2>
-            <p>
-                <strong>Address:</strong> 123 Main Street, Cityville, State, Country
-            </p>
-            <p>
-                <strong>Phone number(s):</strong> +1-123-456-7890, +1-987-654-3210
-            </p>
-            <p>
-                <strong>Email:</strong> <a href="mailto:info@company.com">info@company.com</a>
-            </p>
+        <section class="contact-elements">
+            <div class="contact-info">
+                <h2>Company Information</h2>
+                <p>
+                    <strong>Address:</strong> 123 Main Street, Cityville, State, Country
+                </p>
+                <p>
+                    <strong>Phone number(s):</strong> +1-123-456-7890, +1-987-654-3210
+                </p>
+                <p>
+                    <strong>Email:</strong> <a href="mailto:info@company.com">info@company.com</a>
+                </p>
+            </div>
+            <div class="contact-employees">
+                <figure><img src="images/in.png" alt="Sales Manager">
+                    <figcaption>John Doe</figcaption>
+                </figure>
+                <figure><img src="images/in.png" alt="Marketing Specialist">
+                    <figcaption>Jane Smith</figcaption>
+                </figure>
+                <figure><img src="images/in.png" alt="Customer Support Representative">
+                    <figcaption>Michael Johnson</figcaption>
+                </figure>
+            </div>
+            <div class="contact-map">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d807.1182306866448!2d-72.44409376634404!3d7.913478216969531!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2sve!4v1702139350674!5m2!1ses!2sve"
+                    allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+                    class="google-map"></iframe>
+            </div>
         </section>
-        <section class="section-map">
-            <iframe
-                src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d807.1182306866448!2d-72.44409376634404!3d7.913478216969531!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2sve!4v1702139350674!5m2!1ses!2sve"
-                allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
-                class="google-map"></iframe>
-        </section>
-        <section class="employees">
-            <figure><img src="" alt="Sales Manager">
-                <figcaption>John Doe - Sales Manager</figcaption>
-            </figure>
-            <figure><img src="" alt="Marketing Specialist">
-                <figcaption>Jane Smith - Marketing Specialist</figcaption>
-            </figure>
-            <figure><img src="" alt="Customer Support Representative">
-                <figcaption>Michael Johnson - Customer Support Representative</figcaption>
-            </figure>
+        <section class="contact-form">
+            <form action="" class="formulario">
+                <label for="username">Username</label>
+                <input type="text" name="username" id="username">
+
+                <label for="email">Email Address</label>
+                <input type="email" name="email" id="email">
+
+                <div>
+                    <label for="reservation">What is your purpose?</label>
+                    <br><br>
+                    <input type="radio" name="purpose" id="inquiry">
+                    <label for="inquiry">General Inquiry</label>
+                    <br>
+                    <input type="radio" name="purpose" id="reservation">
+                    <label for="reservation">Reservation Question</label>
+                    <br>
+                    <input type="radio" name="purpose" id="suggestion">
+                    <label for="suggestion">Website Suggestion</label>
+                </div>
+                <label for="text_purpose>Enter your text here</label>
+                <textarea name=" text_purpose" id="text_purpose" cols="25" rows="4"></textarea>
+            </form>
         </section>
     </main>
     <footer>
