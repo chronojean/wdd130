@@ -1,17 +1,21 @@
-<!DOCTYPE html>
-<html lang="es">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Inicio</title>
+    <title>Newsletter</title>
     <link rel="stylesheet" href="example.css">
 </head>
 
 <body>
-
-    <button>Book Now!</button>
-
+    <header id="home" class="formulario-2">
+        <div class="overlay"></div>
+        <div class="form-content">
+            <h1>A Beautiful Newsletter</h1>
+            <p>Subscribe to our newsletter to receive valuable content, exclusive offers, and more!</p>
+            <form action="#" method="POST" class="form-2">
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <button type="submit" onclick="showThankYou()">Subscribe</button>
+            </form>
+        </div>
+    </header>
 </body>
-
-</html>
